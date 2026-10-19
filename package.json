@@ -1,0 +1,13 @@
+{
+  "name": "station-connect-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node --check src/command-executor.js && node --check src/hilink-ussd.js && node --check src/windows-service-code.js && node --check src/hardware-verification.js",
+    "test": "node --test tests/*.test.js"
+  }
+}

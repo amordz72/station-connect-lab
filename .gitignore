@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+agent/data/
+data/
+node_modules/
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
